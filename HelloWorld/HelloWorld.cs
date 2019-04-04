@@ -6,7 +6,11 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //Greeting says Hello User / Ask user name
+            Console.WriteLine("Hello User");
+            Console.WriteLine("What is your name?")
+            Yourname = Console.ReadLine()
+            Console.WriteLine("Hello " + Yourname ". Im a computer.")
         }
     }
 }
